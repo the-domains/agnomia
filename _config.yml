@@ -1,28 +1,40 @@
-name: Agnomia
-favicon: null
-layout_spectrum: 0.31587479053996503
-typography_spectrum: 0.15235744579695165
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 0.315874790539965
+cta:
+  bucket: null
+  version: null
+  domain: null
 color:
+  saturation: 0.5773994619958103
+  brandStrength: 0.8654217247385532
+  rhythmicContrast: 0.9221273940056562
   brandColors:
     - '#A690A4'
     - '#B68F9D'
     - '#C8ACAB'
     - '#FBB9BF'
     - '#E376B7'
-  brandStrength: 0.8654217247385532
   lightness: 0.816093823639676
-  saturation: 0.5773994619958103
-  rhythmicContrast: 0.9221273940056562
 purpose: []
+favicon: null
+name: Agnomia
+typography_spectrum: 0.1523574457969517
