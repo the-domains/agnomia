@@ -1,7 +1,8 @@
-analytics:
-  twitter: null
-  google: null
-  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
+name: Agnomia
 opengraph:
   image: null
   type: null
@@ -12,27 +13,26 @@ collections:
       number: 15
       paginate: true
       navigable: true
-    permalink:
-      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
-layout_spectrum: 1
+    permalink:
+      path: '/:title/'
+purpose: []
+typography_spectrum: 0.8853288
 color:
   saturation: 0.6568297
   brandStrength: 0.8654217247385532
-  rhythmicContrast: 0.8617201
+  lightness: 0.9224283
   brandColors:
     - '#EBEBEB'
     - '#5C5C5C'
     - '#303030'
-  lightness: 0.9224283
-purpose: []
-cta:
-  bucket: null
-  version: null
-  domain: null
+  rhythmicContrast: 0.8617201
+layout_spectrum: 1
+analytics:
+  twitter: null
+  google: null
+  facebook: null
 favicon: null
-name: Agnomia
-typography_spectrum: 0.8853288
